@@ -14,7 +14,7 @@ st.set_page_config(
 alt.themes.enable("default")
 
 #load data
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("Dashboard/main_data.csv")
 
 datetime_columns = ["dteday"]
 all_df.sort_values(by="dteday", inplace=True)
